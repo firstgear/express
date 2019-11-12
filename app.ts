@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('<p>Hello, CDK!<p>');
 });
 
-app.listen(80, err => {
+app.listen(3000, err => {
     if (err) {
         return console.error(err);
     }
