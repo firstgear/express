@@ -3,7 +3,7 @@ import express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('<p>Hello, CDK! Version 2 of API.<p>');
+    res.send('<p>Hello, CDK! Version 3 of API.<p>');
 });
 
 app.listen(3000, err => {
